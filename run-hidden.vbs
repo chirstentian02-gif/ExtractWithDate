@@ -1,4 +1,5 @@
-' Launch ExtractWithDate.ps1 without a console window
+' Launch ExtractWithDate.ps1 without a console window (used by the right-click menu)
+' Keep this file ASCII-only (wscript reads it in the system ANSI code page)
 Set sh = CreateObject("WScript.Shell")
 dir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 args = ""
